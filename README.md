@@ -129,14 +129,6 @@ Go back to the **full** Fashion-MNIST training set and the original two-hidden-l
    - Which one ends up with the lowest validation loss?
    - What does the comparison between the two Adam runs tell you about learning-rate sensitivity?
 
-### Task 5 — Add a Learning-Rate Schedule (Stretch)
-
-This task is optional but recommended.
-
-1. Take the best model from Task 4 and add a `torch.optim.lr_scheduler.CosineAnnealingLR` scheduler with `T_max=15`.
-2. Train for 15 epochs and plot the learning rate over time alongside the loss curves.
-3. Report whether cosine annealing improved the final validation accuracy compared to the same model with a constant learning rate.
-
 ## Submission
 
 ### What to submit
